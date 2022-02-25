@@ -1,0 +1,7 @@
+[build]
+publish = "public"
+
+[[redirects]]
+from = "/_gatsby/image/*"
+to = "/.netlify/functions/image"
+status = 200

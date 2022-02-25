@@ -29,6 +29,7 @@ module.exports = {
         url:
           process.env.WPGRAPHQL_URL ||
           `https://wpgatsbydemo.wpengine.com/graphql`,
+        type: { MediaItem: { createFileNodes: false } },
       },
     },
 
@@ -65,6 +66,7 @@ module.exports = {
         theme_color: `#663399`,
         display: `minimal-ui`,
         icon: `content/assets/gatsby-icon.png`,
+        formats: ["auto", "avif"],
       },
     },
 
