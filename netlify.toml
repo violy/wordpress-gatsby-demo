@@ -1,3 +1,7 @@
 [build]
 publish = "public"
 command = "yarn build"
+environment = { GATSBY_CLOUD_IMAGE_CDN = "true" }
+
+[[plugins]]
+package = "@netlify/plugin-gatsby"
