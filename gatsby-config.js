@@ -14,6 +14,7 @@ module.exports = {
    * If you need any more you can search here: https://www.gatsbyjs.com/plugins/
    */
   plugins: [
+    `gatsby-plugin-netlify`,
     {
       /**
        * First up is the WordPress source plugin that connects Gatsby
@@ -66,7 +67,6 @@ module.exports = {
         theme_color: `#663399`,
         display: `minimal-ui`,
         icon: `content/assets/gatsby-icon.png`,
-        formats: ["auto", "avif"],
       },
     },
 
