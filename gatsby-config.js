@@ -30,7 +30,7 @@ module.exports = {
         url:
           process.env.WPGRAPHQL_URL ||
           `https://wpgatsbydemo.wpengine.com/graphql`,
-        type: { MediaItem: { createFileNodes: false } },
+        // type: { MediaItem: { createFileNodes: false } },
       },
     },
 
